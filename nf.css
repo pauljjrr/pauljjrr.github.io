@@ -1,0 +1,152 @@
+ 
+  body, html {
+    padding: 3px 3px 3px 3px;
+ 	background-color: #000000;
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+    width: 800px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+    background-color: #181818;
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 175px;
+    width: 100%;
+    background-color: #181818;
+  }
+
+  div.page_header span {
+	font-size: 275%;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	background-color: #181818;
+  }
+
+  div.page_header img {
+	border: 0px 0px 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+    min-width: 200px;
+    margin: 3px 3px 3px 3px;
+    background-color: #181818;
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+    width: 100%;
+    margin: 4px 0px 0px 0px;
+    background-color: #181818;
+    color: #FFFFFF;
+    text-align: left;
+  }
+
+  div.content_section {
+	margin: 3px 3px 3px 3px;
+	background-color: #181818;
+	text-align: center;
+  }
+
+  div.content_section_text {
+    padding: 12px 8px 8px 8px;
+    color: #FFFFFF;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #181818;
+    background-color: #181818;
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+	margin-bottom: 6px;
+	text-align: center;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+	padding: 4px 8px 4px 16px;
+	text-align: left;
+  }
+
+  div.content_section_video ul, div.content_section_text li {
+	padding: 4px 8px 4px 16px;
+	text-align: left;
+  }
+  
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+    background-color: #8E9CB2;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_footer {
+    padding: 3px 6px 3px 6px;
+    background-color: #181818;
+    color: #FFFFFF;
+    font-size: 112%;
+    text-align: center;
+	font-style: italic;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_main_red {
+	font-size: 250%;
+	background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+ .your-centered-div {
+	width: 560px; /* you have to have a size or this method doesn't work */
+	height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+	position: absolute; /* positions out of the flow, but according to the nearest parent */
+	top: 2685px;
+	right: 0; /* confuse it i guess */
+	bottom: 0;
+	left: 142px;
+	margin: auto; /* make em equal */
+}
+  
+  div.validator {
+  }
